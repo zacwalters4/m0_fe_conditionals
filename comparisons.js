@@ -56,21 +56,21 @@ console.log("Is numberStudents greater than or equal to 20?", numberStudents <= 
 
 console.log(4 < 9);
 // YOU DO: Explain.
-
+//Is 4 less than 9? (True)
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-
+//Is 4 less than variable books? (False)
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+//Is variable friends greater than variable siblings? (True)
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-
+//Is attendees not equal to meals? (True)
 
 // #-------------------
 // PART 3: Logical Operators
