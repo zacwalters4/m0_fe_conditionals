@@ -35,9 +35,16 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+//  An if statement is assigning the appropriate clothing to the bearClothing variable based on the doorChoice variable's value
 // 2. What variable has a new value assigned to it after the first if statement executes?
+//  bearClothing
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+//  scarf
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+//  A nested if statement runs based off the bearChoice variable, moving down the list of possibilities every time the comparison is not met.
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+//  You'll find yourself in a room full of snakes.
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+//  The bear will cry when it is told the hat is to small :(
 // 7. What is your favorite ending?
+//  Becoming the bear's best friend =)
