@@ -92,15 +92,19 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+var puppy = false
+if (age <= 1){
+  var puppy = true
+}
+console.log(lovesToPlay && puppy);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: The line returned true because I made an if statement that assigned the variable puppy as true if the dog is a puppy or left it false if not
